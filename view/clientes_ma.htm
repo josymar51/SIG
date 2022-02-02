@@ -1,0 +1,553 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>SIG </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="#">
+    <meta name="keywords"
+        content="Admin , Responsive, Landing, Bootstrap, App, Template, Mobile, iOS, Android, apple, creative app">
+    <meta name="author" content="#">
+    <!-- Favicon icon -->
+    <link rel="icon" href="..\libraries\assets\images\favicon.ico" type="image/x-icon">
+    <!-- Google font-->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,800" rel="stylesheet">
+    <!-- Required Fremwork -->
+    <link rel="stylesheet" type="text/css" href="..\libraries\bower_components\bootstrap\css\bootstrap.min.css">
+    <!-- themify-icons line icon -->
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\icon\themify-icons\themify-icons.css">
+    <!-- ico font -->
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\icon\icofont\css\icofont.css">
+    <!-- feather Awesome -->
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\icon\feather\css\feather.css">
+    <!-- Data Table Css -->
+    <link rel="stylesheet" type="text/css"
+        href="..\libraries\bower_components\datatables.net-bs4\css\dataTables.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\pages\data-table\css\buttons.dataTables.min.css">
+    <link rel="stylesheet" type="text/css"
+        href="..\libraries\bower_components\datatables.net-responsive-bs4\css\responsive.bootstrap4.min.css">
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\css\style.css">
+    <link rel="stylesheet" type="text/css" href="..\libraries\assets\css\jquery.mCustomScrollbar.css">
+</head>
+
+<body>
+    <!-- Pre-loader start -->
+    <div class="theme-loader">
+        <div class="ball-scale">
+            <div class='contain'>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+                <div class="ring">
+                    <div class="frame"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Pre-loader end -->
+    <div id="pcoded" class="pcoded">
+        <div class="pcoded-overlay-box"></div>
+        <div class="pcoded-container navbar-wrapper">
+
+            <nav class="navbar header-navbar pcoded-header">
+                <div class="navbar-wrapper">
+
+                    <div class="navbar-logo">
+                        <a class="mobile-menu" id="mobile-collapse" href="#!">
+                            <i class="feather icon-menu"></i>
+                        </a>
+                        <a href="index-1.htm">
+                            <img class="img-fluid" src="..\libraries\assets\images\logo.png" alt="Theme-Logo" width="120">
+                        </a>
+                        <a class="mobile-options">
+                            <i class="feather icon-more-horizontal"></i>
+                        </a>
+                    </div>
+
+                    <div class="navbar-container container-fluid">
+                        <ul class="nav-left">
+                            <li class="header-search">
+                                <div class="main-search morphsearch-search">
+                                    <div class="input-group">
+                                        <span class="input-group-addon search-close"><i
+                                                class="feather icon-x"></i></span>
+                                        <input type="text" class="form-control">
+                                        <span class="input-group-addon search-btn"><i
+                                                class="feather icon-search"></i></span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#!" onclick="javascript:toggleFullScreen()">
+                                    <i class="feather icon-maximize full-screen"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="nav-right">
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-bell"></i>
+                                        <span class="badge bg-c-pink">5</span>
+                                    </div>
+                                    <ul class="show-notification notification-view dropdown-menu"
+                                        data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <h6>Notifications</h6>
+                                            <label class="label label-danger">New</label>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius"
+                                                    src="..\libraries\assets\images\avatar-4.jpg"
+                                                    alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Administrador</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                        elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius"
+                                                    src="..\libraries\assets\images\avatar-3.jpg"
+                                                    alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Joseph William</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                        elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li>
+                                            <div class="media">
+                                                <img class="d-flex align-self-center img-radius"
+                                                    src="..\libraries\assets\images\avatar-4.jpg"
+                                                    alt="Generic placeholder image">
+                                                <div class="media-body">
+                                                    <h5 class="notification-user">Sara Soudein</h5>
+                                                    <p class="notification-msg">Lorem ipsum dolor sit amet, consectetuer
+                                                        elit.</p>
+                                                    <span class="notification-time">30 minutes ago</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="displayChatbox dropdown-toggle" data-toggle="dropdown">
+                                        <i class="feather icon-message-square"></i>
+                                        <span class="badge bg-c-green">3</span>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="user-profile header-notification">
+                                <div class="dropdown-primary dropdown">
+                                    <div class="dropdown-toggle" data-toggle="dropdown">
+                                        <img src="..\libraries\assets\images\avatar-4.jpg" class="img-radius"
+                                            alt="User-Profile-Image">
+                                        <span>Administrador</span>
+                                        <i class="feather icon-chevron-down"></i>
+                                    </div>
+                                    <ul class="show-notification profile-notification dropdown-menu"
+                                        data-dropdown-in="fadeIn" data-dropdown-out="fadeOut">
+                                        <li>
+                                            <a href="#!">
+                                                <i class="feather icon-settings"></i> Settings
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="user-profile.htm">
+                                                <i class="feather icon-user"></i> Profile
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="email-inbox.htm">
+                                                <i class="feather icon-mail"></i> My Messages
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-lock-screen.htm">
+                                                <i class="feather icon-lock"></i> Lock Screen
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="auth-normal-sign-in.htm">
+                                                <i class="feather icon-log-out"></i> Logout
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+
+
+
+            <div class="pcoded-main-container">
+                <div class="pcoded-wrapper">
+                    <nav class="pcoded-navbar">
+                        <div class="pcoded-inner-navbar main-menu">
+                            <div class="pcoded-navigatio-lavel">Menú</div>
+                            <ul class="pcoded-item pcoded-left-item">
+                                <li class="pcoded-trigger">
+                                    <a href="index_ma.htm">
+                                        <span class="pcoded-micon"><i class="feather icon-home"></i></span>
+                                        <span class="pcoded-mtext">Dashboard</span>
+                                    </a>
+                                </li>
+                                <li class="pcoded-hasmenu active pcoded-trigger">
+                                    <a href="javascript:void(0)">
+                                        <span class="pcoded-micon"><i class="feather icon-sidebar"></i></span>
+                                        <span class="pcoded-mtext">Clientes</span>
+                                        <span class="pcoded-badge label label-warning">NEW</span>
+                                    </a>
+                                    <ul class="pcoded-submenu">
+                                        <li class=" ">
+                                            <a href="clientes_ma.htm">
+                                                <span class="pcoded-mtext">Administración Clientes</span>
+                                            </a>
+                                        </li>
+                                        <li class=" ">
+                                            <a href="asignaciones_ma.htm">
+                                                <span class="pcoded-mtext">Asignaciones</span>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+
+
+
+                        </div>
+                    </nav>
+                    <div class="pcoded-content">
+                        <div class="pcoded-inner-content">
+                            <div class="main-body">
+                                <div class="page-body">
+
+                                    <!--inicio acordeo-->
+
+                                    <!-- Row start -->
+                                    <div class="row">
+                                        <!-- Color Open Accordion start -->
+                                        <div class="col-lg-12">
+                                            <div class="card">
+                                                <div class="card-header">
+                                                    <h2>Nuestros Clientes</h2>
+                                                    <p>No son solo nuestros clientes son nuestros aliados comerciales.
+                                                    </p>
+                                                </div>
+
+                                                <!--dif tabla-->
+                                                <div class="row">
+                                                    <div class="col-sm-12">
+                                                        <!-- Zero config.table start -->
+                                                        <div class="card">
+
+                                                            <!-- Nav tabs -->
+                                                            <ul class="nav nav-tabs md-tabs" role="tablist">
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link active" data-toggle="tab"
+                                                                        href="#home3" role="tab">Activos</a>
+                                                                    <div class="slide"></div>
+                                                                </li>
+                                                                <li class="nav-item">
+                                                                    <a class="nav-link" data-toggle="tab"
+                                                                        href="#profile3" role="tab">Inactivos</a>
+                                                                    <div class="slide"></div>
+                                                                </li>
+
+                                                            </ul>
+                                                            <!-- Tab panes -->
+                                                            <div class="tab-content card-block">
+                                                                <div class="tab-pane active" id="home3" role="tabpanel">
+                                                                    <!-- <h3>Clientes Activos</h3> -->
+                                                                    <div class="card-block">
+                                                                        <div class="dt-responsive table-responsive">
+                                                                            <table id="simpletable"
+                                                                                class="table table-striped table-bordered nowrap">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>CLIENTE</th>
+                                                                                        <th>RAZON SOCIAL</th>
+                                                                                        <th>NEGOCIO</th>
+                                                                                        <th>FECHA ALTA</th>
+                                                                                        <th></th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>CUOTA YA</td>
+                                                                                        <td>CUOTA YA</td>
+                                                                                        <td>Masivo</td>
+                                                                                        <td>01/01/2022</td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>EDESUR</td>
+                                                                                        <td>EDESUR</td>
+                                                                                        <td>Masivo</td>
+                                                                                        <td>01/01/2022</td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>VOLKSWAGEN</td>
+                                                                                        <td>VOLKSWAGEN</td>
+                                                                                        <td>Masivo</td>
+                                                                                        <td>01/01/2022</td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>ASOCIART</td>
+                                                                                        <td>ASOCIART</td>
+                                                                                        <td>Corporativo</td>
+                                                                                        <td>01/01/2022</td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>BERKLEY</td>
+                                                                                        <td>BERKLEY</td>
+                                                                                        <td>Corporativo</td>
+                                                                                        <td></td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clclienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>PREVENCION ART</td>
+                                                                                        <td>PREVENCION ARTPREVENCION ART
+                                                                                        </td>
+                                                                                        <td>Corporativo</td>
+                                                                                        <td></td>
+                                                                                        <td><button type="button"
+                                                                                                class="btn btn-primary btn-round btn-mini"
+                                                                                                onclick="redirecciona('clienteDetalle_ma.htm')">
+
+                                                                                                Ver Cliente</button>
+
+                                                                                            <button
+                                                                                                class="btn btn-info btn-round btn-mini"
+                                                                                                onclick="redirecciona('asignaciones_ma.htm')">Asignaciones</button>
+                                                                                        </td>
+                                                                                    </tr>
+
+                                                                                </tbody>
+
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                                <div class="tab-pane" id="profile3" role="tabpanel">
+
+                                                                    <h3>Clientes Inactivos</h3>
+                                                                    <div class="card-block">
+                                                                        <div class="dt-responsive table-responsive">
+                                                                            <table id="simpletable1"
+                                                                                class="table table-striped table-bordered nowrap">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>ENTIDvdxAD</th>
+                                                                                        <th>DIAS DE VIGENCIA</th>
+                                                                                        <th>DIAS DE ASIGNACION</th>
+                                                                                        <th>Acción</th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>CUOTA YA</td>
+                                                                                        <td>180</td>
+                                                                                        <td>90</td>
+                                                                                        <td><a href="tablero.html">
+                                                                                                <i
+                                                                                                    class="bi bi-search"></i>
+                                                                                            </a></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>EDESUR</td>
+                                                                                        <td>90</td>
+                                                                                        <td></td>
+                                                                                        <td><a href="tablero.html">
+                                                                                                <i
+                                                                                                    class="bi bi-search"></i>
+                                                                                            </a></td>
+                                                                                    </tr>
+                                                                                    <tr>
+                                                                                        <td>VOLKSWAGEN</td>
+                                                                                        <td>30</td>
+                                                                                        <td>30</td>
+                                                                                        <td><a href="tablero.html">
+                                                                                                <i
+                                                                                                    class="bi bi-search"></i>
+                                                                                            </a></td>
+                                                                                    </tr>
+
+
+                                                                                </tbody>
+
+                                                                            </table>
+                                                                        </div>
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+
+
+                                                    </div>
+
+
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                        <!-- Color Open Accordion ends -->
+                                    </div>
+                                    <!-- Row end -->
+                                    <!-- fin acordeon-->
+
+
+
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Required Jquery -->
+    <script type="text/javascript" src="..\libraries\bower_components\jquery\js\jquery.min.js"></script>
+    <script type="text/javascript" src="..\libraries\bower_components\jquery-ui\js\jquery-ui.min.js"></script>
+    <script type="text/javascript" src="..\libraries\bower_components\popper.js\js\popper.min.js"></script>
+    <script type="text/javascript" src="..\libraries\bower_components\bootstrap\js\bootstrap.min.js"></script>
+    <!-- jquery slimscroll js -->
+    <script type="text/javascript" src="..\libraries\bower_components\jquery-slimscroll\js\jquery.slimscroll.js"></script>
+    <!-- modernizr js -->
+    <script type="text/javascript" src="..\libraries\bower_components\modernizr\js\modernizr.js"></script>
+    <script type="text/javascript" src="..\libraries\bower_components\modernizr\js\css-scrollbars.js"></script>
+
+    <!-- data-table js -->
+    <script src="..\libraries\bower_components\datatables.net\js\jquery.dataTables.min.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-buttons\js\dataTables.buttons.min.js"></script>
+    <script src="..\libraries\assets\pages\data-table\js\jszip.min.js"></script>
+    <script src="..\libraries\assets\pages\data-table\js\pdfmake.min.js"></script>
+    <script src="..\libraries\assets\pages\data-table\js\vfs_fonts.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-buttons\js\buttons.print.min.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-buttons\js\buttons.html5.min.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-bs4\js\dataTables.bootstrap4.min.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-responsive\js\dataTables.responsive.min.js"></script>
+    <script src="..\libraries\bower_components\datatables.net-responsive-bs4\js\responsive.bootstrap4.min.js"></script>
+    <!-- Accordion js -->
+    <script type="text/javascript" src="..\libraries\assets\pages\accordion\accordion.js"></script>
+    <!-- i18next.min.js -->
+    <script type="text/javascript" src="..\libraries\bower_components\i18next\js\i18next.min.js"></script>
+    <script type="text/javascript"
+        src="..\libraries\bower_components\i18next-xhr-backend\js\i18nextXHRBackend.min.js"></script>
+    <script type="text/javascript"
+        src="..\libraries\bower_components\i18next-browser-languagedetector\js\i18nextBrowserLanguageDetector.min.js"></script>
+    <script type="text/javascript" src="..\libraries\bower_components\jquery-i18next\js\jquery-i18next.min.js"></script>
+    <!-- Custom js -->
+    <script src="..\libraries\assets\pages\data-table\js\data-table-custom.js"></script>
+
+    <script src="..\libraries\assets\js\pcoded.min.js"></script>
+    <script src="..\libraries\assets\js\vartical-layout.min.js"></script>
+    <script src="..\libraries\assets\js\jquery.mCustomScrollbar.concat.min.js"></script>
+    <script type="text/javascript" src="..\libraries\assets\js\script.js"></script>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+
+
+        function redirecciona(view) {
+
+            window.location.href = view;
+
+        }
+    </script>
+</body>
+
+</html>
